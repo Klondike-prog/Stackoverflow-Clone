@@ -1,0 +1,25 @@
+
+
+.loginPage{
+    width: 40%;
+    margin: auto;
+    .loginPage--form{
+        background-color: rgba(185, 185, 183, 0.233);
+        border-radius: 100px;
+        box-shadow: 2px 3px 10px gray;
+        align-items: center;
+
+        .loginPage--form--img{
+            text-align: center;
+            display: block;
+            h3{
+                position: relative;
+                bottom: 1.5rem;
+                font-weight: bold;
+            }
+        }
+    }
+    .input-mysize{
+       height:200px;
+    }
+}
